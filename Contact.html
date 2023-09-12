@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content=" " "width=device-width", initial-scale="1">
+        <title> About Us </title>
+        <style>
+        body{
+            font-size:85%;
+            font-family: "Courier New", Courier, monospace;
+            letter-spacing: 0.15em;
+            background-color: lightgrey;
+        }
+
+        ul{
+            width: 570px;
+            padding: 15px;
+            margin: 0px auto 0px auto;
+            border-top: 2px solid #000000;
+            border-bottom: 1px solid #000000;
+            text-align: center;
+            background-color: grey;
+        }
+
+        li{
+            display: inline;
+            margin: 0px 3px;
+        }
+
+        a{
+            color: #000000;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 6px 18px 5px 18px;
+        }
+
+        a.on{
+            color:aqua
+        }
+
+        a:hover{
+            color:#cc3333
+        }
+
+        #texto{
+            letter-spacing: 0.1em;
+            text-align:center;
+            font-size: 105%;
+            font-family:Arial, Helvetica, sans-serif;
+            width: auto;
+            height: auto;
+            background-color: rgb(163, 158, 158);
+            border: 3px solid black;
+            border-radius: 8px;
+            padding: 9px 150px;
+            font-weight: bold;
+        }
+
+        fieldset{
+            text-align:center;
+            border: 3px solid blue;
+            border-radius: 5px;
+            background-color:lightblue;
+        }
+
+        #form{
+            background-color:lightblue;
+            text-transform:uppercase;
+            font-weight: bolder;
+            font-size:150%;
+            border: 3px solid blue;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px auto 10px auto;
+        }
+
+        .bt{
+            background-color:grey;
+            color:black;
+            font-weight: bolder;
+            border: 2px solid black;
+        }
+
+        .bt:hover{
+            color:red
+        }
+
+        label{
+            font-family:Arial, Helvetica, sans-serif;
+            color:black;
+            text-align:center;
+            border: 2px solid black;
+            font-size:120%;
+            background-color:white;
+        }
+
+        input{
+            font-size:130%;
+            border:2px solid black;
+        }
+
+        textarea{
+            border:2px solid black;
+            font-size:150%;
+
+        }
+        </style>
+    </head>
+    <body>
+        <ul id="navigation">
+            <li> <a href="Home.html"> Home </a> </li>
+            <li> <a href="About.html"> About us </a> </li>
+            <li> <a href="Repair.html"> Repairs </a> </li>
+            <li> <a href="Contact.html" class="on"> Customer support </a> </li>
+        </ul>
+        
+        <p id="texto">
+            To contact our customer service please fill out the form below. We can also be reached by phone at (1)2345-6789.
+        </p>
+
+        <p>
+            <fieldset>
+                <legend id="form" style="color:rgb(51, 14, 218)"> Contact Us </legend>
+                <form style="color:rgb(255, 0, 0);">
+                    <label> Name </label> <br>
+                    <input type="text"> <br> <br>
+                    <label> E-mail </label> <br>
+                    <input type="text"> <br> <br>
+                    <label> Leave your message </label> <br>
+                    <textarea rows="10" cols="70"> 
+                    </textarea> <br> <br>   
+                    <input type="submit" value="Send" class="bt">
+                </form>
+            </fieldset>
+        </p>
